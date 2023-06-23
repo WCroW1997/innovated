@@ -529,10 +529,10 @@ a {
 .price__card__label {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -26px;
 	background: url('./img/labelBG.svg') no-repeat center;
 	background-size: contain;
-	padding: 24px 0;
+	padding: 20px 22px;
 	transform: rotate(-45deg);
 }
 
@@ -584,4 +584,144 @@ a {
 .price__card_pink > .card__header {
 	border-radius: 10px 10px 0px 0px;
 	background: linear-gradient(180deg, #d95374 0%, #d32852 100%);
+}
+
+.review {
+	margin-top: 140px;
+}
+
+.review__text {
+	margin: 0 auto;
+	width: 715px;
+}
+
+.review__title {
+	padding: 0;
+}
+
+.review__sliders {
+	padding: 46px 70px;
+	border-radius: 10px;
+	border: 1px solid rgba(5, 12, 38, 0.1);
+	margin-top: 70px;
+	background: url(./img/sliderBG.svg) no-repeat center center;
+}
+
+.slide__title {
+	font-size: 18px;
+	font-family: Poppins;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 160%;
+	padding: 15px 0 0 45px;
+	position: relative;
+}
+
+.slide__title::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 41px;
+	height: 35px;
+	background: url('./img/qoute.svg') no-repeat top left;
+}
+
+.slide__footer {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-bottom: 50px;
+}
+
+.slide__info p {
+	font-size: 16px;
+	font-family: Poppins;
+	line-height: 160%;
+	margin-bottom: 5px;
+}
+
+.slide__info h4 {
+	font-size: 20px;
+	font-family: Poppins;
+	font-weight: 500;
+	line-height: 160%;
+}
+
+.swiper-pagination-bullet {
+	height: 11px;
+	width: 20px;
+	border-radius: 20px;
+	background: #3988ff;
+}
+
+.swiper-pagination-bullet-active {
+	width: 40px;
+}
+
+.footer {
+	margin-top: 140px;
+	background: #050c26;
+	padding: 75px 0 30px;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	gap: 70px;
+}
+
+.footer__block {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	max-width: 316px;
+}
+
+.footer__logo {
+	color: #fff;
+}
+
+.footer__info {
+	font-size: 18px;
+	font-family: Poppins;
+	line-height: 160%;
+	color: #fff;
+	opacity: 0.7;
+}
+
+.footer__title {
+	color: #fff;
+}
+
+.footer__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.footer__list a,
+.footer__link {
+	color: var(--primary-white, #fff);
+	font-size: 16px;
+	font-family: Poppins;
+	line-height: 160%;
+	opacity: 0.7;
+}
+
+.footer__socLink {
+	margin-top: 10px;
+	display: flex;
+	gap: 25px;
+}
+
+.footer__btn {
+	padding: 15px 30px;
+	max-width: 160px;
+	font-size: 20px;
+	font-family: Poppins;
+	font-weight: 500;
+	line-height: 160%;
 }
